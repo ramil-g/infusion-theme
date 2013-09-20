@@ -128,17 +128,15 @@
  *   The name of the template being rendered ("html" in this case.)
  */
 function infusion_preprocess_html(&$variables, $hook) {
-
-  if (in_array('uio-infusionmodule-theme', $variables['classes_array'])) {
+  //add the infusion class to body if it hasn't been added yet
+  if (in_array('infusion-uiomodule-theme', $variables['classes_array'])) {
     return;
   }
   else {
-    $variables['classes_array'][] = 'uio-infusionmodule-theme';
+    $variables['classes_array'][] = 'infusion-uiomodule-theme';
   }
 
-  // The body tag's classes are controlled by the $classes_array variable. To
-  // remove a class from $classes_array, use array_diff().
-  //$variables['classes_array'] = array_diff($variables['classes_array'], array('class-to-remove'));
+
 }
 
 // */
@@ -151,10 +149,9 @@ function infusion_preprocess_html(&$variables, $hook) {
  * @param $hook
  *   The name of the template being rendered ("page" in this case.)
  */
-/* -- Delete this line if you want to use this function
-  function STARTERKIT_preprocess_page(&$variables, $hook) {
-  $variables['sample_variable'] = t('Lorem ipsum.');
-  }
+  function infusion_preprocess_page(&$variables, $hook) {
+  //pass the theme path to Drupal.settings
+  drupal_add_js('jQuery.extend(Drupal.settings, { "pathToTheme": "' . path_to_theme() . '" });', 'inline');  }
   // */
 
 /**
@@ -253,10 +250,3 @@ function infusion_form_alter(&$form, &$form_state, $form_id) {
       break;
   }
 }
-
-/**
- * Implements hook_preprocess_block().
- */
-//function infusion_preprocess_block(&$variables) {
-//  dpm($variables);
-//}
