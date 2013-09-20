@@ -66,7 +66,7 @@ article.node
   background:rgba(14,131,205,0.70);
 }
 
-.node ul.links a,aside.sidebars a
+.node ul.links a
 {
   border-bottom-style:dotted;
   border-bottom-width:1px;
@@ -112,6 +112,7 @@ article.node
   border-bottom-right-radius:20px;
   border-bottom-left-radius:20px;
   background-color:#FFF;
+  border-bottom: 1px solid #b4c1cb;
 }
 
 /* Infusion's Table of Contents*/
@@ -143,7 +144,6 @@ article.node
 {
   font-weight:700;
   font-size:1.2em;
-  text-shadow:1px 1px 2px #DDD;
 }
 
 #navigation ul.links li,#navigation ul.menu li
@@ -265,6 +265,11 @@ div.form-item-search-block-form.focus
   box-shadow:0 0 6px #abdcff, inset 0 1px 2px rgba(255,255,255,0.08);
 }
 
+input
+{
+  font-size: 14px;
+}
+
 input#edit-search-block-form--2,.sidebars #edit-name,.sidebars #edit-pass
 {
   width:100%;
@@ -306,4 +311,26 @@ input[type='submit']
   z-index:5;
   display:none;
   cursor:pointer;
+}
+
+/* tabs */
+.fl-theme-wb ul.primary a.active,
+.fl-theme-by ul.primary a.active,
+.fl-theme-yb ul.primary a.active {
+    background-image: none;
+}
+
+.fl-theme-yb ul.primary a.active {
+    background-color: yellow !important;
+    color: black !important;
+}
+
+.fl-theme-by ul.primary a.active {
+    background-color: black !important;
+    color: yellow !important;
+}
+
+.fl-theme-wb ul.primary a.active {
+    background-color: white !important;
+    color: black !important;
 }
