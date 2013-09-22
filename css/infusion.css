@@ -43,7 +43,9 @@ a:active
 
 article.node
 {
-  padding-bottom:10px;
+    border: 1px dashed white;
+    margin-bottom: 10px;
+    padding: 10px;
 }
 
 .node-title
