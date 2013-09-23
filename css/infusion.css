@@ -2,29 +2,29 @@
 
 .infusion-uiomodule-theme
 {
-  background-image:url(../images/bg.png);
-  background-color:#fff;
+    background-image:url(../images/bg.png);
+    background-color:#fff;
 }
 
 body
 {
-  font-family:OpenSans, "Myriad Pro", Helvetica, Arial, sans-serif;
+    font-family:OpenSans, "Myriad Pro", Helvetica, Arial, sans-serif;
 }
 
 a:link
 {
-  color:#0e83cd;
-  text-decoration:none;
+    color:#0e83cd;
+    text-decoration:none;
 }
 
 a:visited
 {
-  color:#0e83cd;
+    color:#0e83cd;
 }
 
 a:hover,a:focus
 {
-  color:#ffa100;
+    color:#ffa100;
 }
 
 a:active
@@ -33,289 +33,297 @@ a:active
 
 #logo,#name-and-slogan
 {
-  padding:10px 0;
+    padding:10px 0;
 }
 
 #content
 {
-  padding-right:20px;
+    padding-right:20px;
 }
 
 article.node
 {
-    border: 1px dashed white;
+    background-color: rgb(255, 255, 255);
+/*    background-color: rgba(255, 255, 255, 0.5);*/
+    padding: 0 15px 7px;
     margin-bottom: 10px;
     padding: 10px;
 }
 
 .node-title
 {
-  text-shadow:1px 1px 1px rgba(0,0,0,0.2);
+    text-shadow:1px 1px 1px rgba(0,0,0,0.2);
 }
 
 .node-title a:hover
 {
-  background:rgba(14,131,205,.7);
+    background:rgba(14,131,205,.7);
 }
 
 .node .submitted
 {
-  margin:5px 0;
+    margin:5px 0;
 }
 
 .node .submitted a:hover
 {
-  color:inherit;
+    color:inherit;
 }
 
 .node .submitted>:first-child
 {
-  background:#ffa100;
+    background:#ffa100;
 }
 
 .node ul.links a
 {
-  border-bottom-style:dotted;
-  border-bottom-width:1px;
+    border-bottom-style:dotted;
+    border-bottom-width:1px;
 }
 
 .node ul.links a
 {
-  color:#ffa100;
+    color:#ffa100;
 }
 
 .node ul.links a:hover
 {
-  background:rgba(14,131,205,.7);
+    background:rgba(14,131,205,.7);
 }
 
 .sidebars .form-type-textfield
 {
-  margin-bottom:7px;
+    margin-bottom:7px;
 }
 
 .sidebars ul.menu
 {
-  margin-top:13px;
+    margin-top:13px;
 }
 
 /*Infusion Fat Panel*/
 .infusion-uiomodule-theme .fl-uiOptions-fatPanel
 {
-  background-image:url(../images/bg.png);
-  background-color:#fff;
-  max-width:1200px;
-  margin:0 auto;
+    background-image:url(../images/bg.png);
+    background-color:#fff;
+    max-width:1200px;
+    margin:0 auto;
 }
 
 .fl-uio-tabs
 {
-  margin:-10px 20px 0 0;
-  padding:2px;
-  -webkit-border-bottom-right-radius:20px;
-  -webkit-border-bottom-left-radius:20px;
-  -moz-border-radius-bottomright:20px;
-  -moz-border-radius-bottomleft:20px;
-  border-bottom-right-radius:20px;
-  border-bottom-left-radius:20px;
-  background-color:#FFF;
-  border-bottom: 1px solid #b4c1cb;
+    margin:-10px 20px 0 0;
+    padding:2px;
+    -webkit-border-bottom-right-radius:20px;
+    -webkit-border-bottom-left-radius:20px;
+    -moz-border-radius-bottomright:20px;
+    -moz-border-radius-bottomleft:20px;
+    border-bottom-right-radius:20px;
+    border-bottom-left-radius:20px;
+    background-color:#FFF;
+    border-bottom: 1px solid #b4c1cb;
 }
 
 /* Infusion's Table of Contents*/
 .flc-toc-tocContainer
 {
-  max-width:1200px;
-  margin:0 auto;
+    max-width:1200px;
+    margin:0 auto;
 }
 
 #site-name
 {
-  font-family:Oswald, sans-serif;
-  text-shadow:5px 4px 3px rgba(0,0,0,0.2);
-  font-size:2.1em;
-  text-transform:uppercase;
+    font-family:Oswald, sans-serif;
+    text-shadow:5px 4px 3px rgba(0,0,0,0.2);
+    font-size:2.1em;
+    text-transform:uppercase;
 }
 
 #navigation
 {
-  padding:14px 0;
-  position:relative;
-  width:auto;
-  float:right;
-  height:auto;
-  margin-top:1px;
+    padding:14px 0;
+    position:relative;
+    width:auto;
+    float:right;
+    height:auto;
+    margin-top:1px;
 }
 
 #navigation #main-menu
 {
-  font-weight:700;
-  font-size:1.2em;
+    font-weight:700;
+    font-size:1.2em;
 }
 
 #navigation ul.links li,#navigation ul.menu li
 {
-  text-transform:uppercase;
-  float:left;
-/* LTR */
-  list-style-type:none;
-  list-style-image:none;
-  -webkit-transition:background-color .6s ease;
-  transition:background-color .6s ease;
+    text-transform:uppercase;
+    float:left;
+    /* LTR */
+    list-style-type:none;
+    list-style-image:none;
+    -webkit-transition:background-color .6s ease;
+    transition:background-color .6s ease;
 }
 
 #navigation ul.links li a:hover,#navigation ul.menu li a:hover
 {
-  color:inherit;
+    color:inherit;
 }
 
 #navigation ul.links li:hover
 {
-  background-color:#ffa100;
-  background-color:rgba(255,161,0,.4);
+    background-color:#ffa100;
+    background-color:rgba(255,161,0,.4);
 }
 
 #navigation ul.links li,#navigation ul.menu li a
 {
-  padding:8px;
+    padding:8px;
 }
 
 #block-system-navigation
 {
-  display:block;
+    display:block;
 }
 
 #main #content,#main .sidebars
 {
-  margin-top:10px;
+    margin-top:10px;
 }
 
 menu,ol,ul,.item-list ul
 {
-  padding:0;
+    padding:0;
 }
 
 .block-title
 {
-  word-wrap:normal;
+    word-wrap:normal;
 }
 
 #user-login-form ul
 {
-  clear:both;
+    clear:both;
 }
 
 /*buttons*/
 .fl-uio-tabs button
 {
-  position:relative;
-/*width:220px;*/
-  height:2em;
-  text-align:center;
-  color:#FFF;
-  text-decoration:none;
-  line-height:2em;
-  font-family:Oswald, Helvetica;
-/*display: block;*/
-  margin:4px;
+    position:relative;
+    /*width:220px;*/
+    height:2em;
+    text-align:center;
+    color:#FFF;
+    text-decoration:none;
+    line-height:2em;
+    font-family:Oswald, Helvetica;
+    /*display: block;*/
+    margin:4px;
 }
 
 button#reset,button#show-hide
 {
-  background:none;
-  border:none;
-  padding:0;
-  color:#000;
-  margin:6px 10px 1px;
-  font-size:.9em;
+    background:none;
+    border:none;
+    padding:0;
+    color:#000;
+    margin:6px 10px 1px;
+    font-size:.9em;
 }
 
 /* Search */
 #block-search-form
 {
-  margin-bottom:0;
+    margin-bottom:0;
 }
 
 #search-block-form .container-inline
 {
-  width:240px;
-  position:relative;
-  display:block;
+    width:240px;
+    position:relative;
+    display:block;
 }
 
 .form-type-textfield,.form-type-password
 {
-  padding:0 15px 7px;
-  border:1px solid #c6d2db;
-  border-top:1px solid #b4c1cb;
-  box-shadow:inset 0 1px 2px rgba(255,255,255,0.08);
-  background:#e8edf1;
+    padding:10px 15px 7px;
+    border:1px solid #c6d2db;
+    border-top:1px solid #b4c1cb;
+    box-shadow:inset 0 1px 2px rgba(255,255,255,0.08);
+    background-color:rgb(255, 255, 255);
+    background-color:rgba(255, 255, 255, 0.5);
 }
 
 .sidebars div.form-item-search-block-form,.sidebars .form-item-name,.sidebars .form-item-pass
 {
-  width:120px;
-  padding:0 15px 2px;
-  border-radius:12px;
-  border:1px solid #c6d2db;
-  border-top:1px solid #b4c1cb;
-  box-shadow:inset 0 1px 2px rgba(255,255,255,0.08);
-  float:left;
-  background:#e8edf1;
-  margin-top:13px;
+    width:120px;
+    padding:0 15px 2px;
+    border-radius:12px;
+    border:1px solid #c6d2db;
+    border-top:1px solid #b4c1cb;
+    box-shadow:inset 0 1px 2px rgba(255,255,255,0.08);
+    float:left;
+    background:#e8edf1;
+    margin-top:13px;
 }
 
 div.form-item-search-block-form.focus
 {
-  border:1px solid #9ecbe2;
-  box-shadow:0 0 6px #abdcff, inset 0 1px 2px rgba(255,255,255,0.08);
+    border:1px solid #9ecbe2;
+    box-shadow:0 0 6px #abdcff, inset 0 1px 2px rgba(255,255,255,0.08);
 }
 
 input
 {
-  font-size: 14px;
+    font-size: 14px;
 }
 
 input#edit-search-block-form--2,.sidebars #edit-name,.sidebars #edit-pass
 {
-  width:100%;
-  border:0;
-  border-radius:20px;
-  background:transparent;
-  height:1.5em;
-  color:#b4bdc4;
-  text-shadow:0 1px 1px #fff;
-  margin-top:4px;
-  font-size:90%;
+    width:100%;
+    border:0;
+    border-radius:20px;
+    background:transparent;
+    height:1.5em;
+    color:#b4bdc4;
+    text-shadow:0 1px 1px #fff;
+    margin-top:4px;
+    font-size:90%;
 }
 
 input#edit-search-block-form--2:focus
 {
-  outline:none;
+    outline:none;
 }
 
 input[type='submit']
 {
-  line-height:1.5em;
-  border:1px solid #b4c1cb;
-  padding:4px;
-  color:#0e83cd;
+    line-height:1.5em;
+    border:1px solid #b4c1cb;
+    padding:4px;
+    color:#0e83cd;
+}
+
+#infusion-ui-settings-form input
+{
+    width: auto;
 }
 
 #search-block-form input[type='submit']
 {
-  width:19px;
-  height:19px;
-  text-indent:-9999px;
-  overflow:hidden;
-  background:url(../images/search-icon.png) no-repeat;
-  border:0;
-  position:absolute;
-  top:21px;
-  right:13px;
-  z-index:5;
-  display:none;
-  cursor:pointer;
+    width:19px;
+    height:19px;
+    text-indent:-9999px;
+    overflow:hidden;
+    background:url(../images/search-icon.png) no-repeat;
+    border:0;
+    position:absolute;
+    top:21px;
+    right:13px;
+    z-index:5;
+    display:none;
+    cursor:pointer;
 }
 
 /* tabs */
